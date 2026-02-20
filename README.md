@@ -23,7 +23,7 @@ The goal of this project is to deeply understand the mathematics behind word emb
 
 Below is an example output produced by the training script:
 
-![Training Output](console-output.png)
+![Training Output](console-output.PNG)
 
 ---
 
