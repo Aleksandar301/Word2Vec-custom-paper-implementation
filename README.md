@@ -19,28 +19,11 @@ The goal of this project is to deeply understand the mathematics behind word emb
 
 ---
 
-## Mathematical Foundation
-
-The model optimizes:
-
-\[
-L = - \log \sigma(u_o^\top h) - \sum_{k=1}^{K} \log \sigma(-u_k^\top h)
-\]
-
-Where:
-- \( h \) is the averaged context embedding  
-- \( u_o \) is the target word output embedding  
-- \( u_k \) are negative sample embeddings  
-
-Gradients are derived manually and applied using gradient descent.
-
----
-
 ## Example Output
 
 Below is an example output produced by the training script:
 
-![Training Output](console_output.png)
+![Training Output](console-output.png)
 
 ---
 
