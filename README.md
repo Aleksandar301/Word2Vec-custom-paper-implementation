@@ -24,9 +24,7 @@ The goal of this project is to deeply understand the mathematics behind word emb
 The model optimizes:
 
 \[
-L =
-- \log \sigma(u_o^\top h)
-- \sum_{k=1}^{K} \log \sigma(-u_k^\top h)
+L = - \log \sigma(u_o^\top h) - \sum_{k=1}^{K} \log \sigma(-u_k^\top h)
 \]
 
 Where:
@@ -43,8 +41,6 @@ Gradients are derived manually and applied using gradient descent.
 Below is an example output produced by the training script:
 
 ![Training Output](console_output.png)
-
-> Replace `path_to_your_image.png` with your actual image file path.
 
 ---
 
