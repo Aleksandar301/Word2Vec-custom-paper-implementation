@@ -1,12 +1,12 @@
 # Word2Vec from Scratch (CBOW + Negative Sampling)
 
-This project implements **Word2Vec (CBOW with Negative Sampling)** entirely from scratch using NumPy — without deep learning frameworks.
+This project implements **Word2Vec (CBOW with Negative Sampling)** entirely from scratch using NumPy - without deep learning frameworks.
 
 The goal of this project is to deeply understand the mathematics behind word embeddings, including forward pass computation, loss formulation, and full gradient derivation.
 
 ---
 
-## 📌 Features
+## Features
 
 - Text preprocessing and tokenization  
 - Vocabulary construction and indexing  
@@ -19,7 +19,7 @@ The goal of this project is to deeply understand the mathematics behind word emb
 
 ---
 
-## 🧠 Mathematical Foundation
+## Mathematical Foundation
 
 The model optimizes:
 
@@ -38,17 +38,17 @@ Gradients are derived manually and applied using gradient descent.
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 Below is an example output produced by the training script:
 
-![Training Output](path_to_your_image.png)
+![Training Output](console_output.png)
 
 > Replace `path_to_your_image.png` with your actual image file path.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 python train.py
