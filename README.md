@@ -27,8 +27,3 @@ Below is an example output produced by the training script:
 ![Training Output](console-output.PNG)
 
 ---
-
-## How to Run
-
-```bash
-python train.py
