@@ -24,6 +24,6 @@ The corpus used for this project is a transcript of "Alice's Adventures in Wonde
 
 Below is an example output produced by the training script:
 
-![Training Output](console-output.PNG)
+
 
 ---
